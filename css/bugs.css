@@ -51,7 +51,7 @@ input[type=text] {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 520px) {
+@media screen and (min-width: 1px) and (max-width: 520px) {
   input[type=text] {
     width: 100%;
     padding: 10px 15px;
