@@ -1,0 +1,74 @@
+html {
+    border-style: solid;
+    border-width: 6px;
+    font-family: Arial;
+    border-color: lightblue;
+    border-top-color: black;
+    border-bottom-color: black;
+    background-color:rgb(225, 237, 240);
+    
+}
+
+
+header {
+    text-align: center;
+    color: rgb(1, 16, 47);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}    
+
+article {
+    text-align: center;
+    color: rgb(3, 70, 12);
+    text-decoration-line: underline;
+    text-decoration-color: (3, 70, 12);
+    text-decoration-style: dotted;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+a {
+    color: rgb(88, 88, 238);
+}
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: rgb(180, 20, 180);
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+.changingbox {
+    width: 150px;
+    height: 150px;
+    background: lightskyblue;
+    animation-name: resize1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin: auto;
+    
+}
+
+@keyframes resize1 {
+    0% {
+        width: 150px;
+    }
+    50% {
+        width: 300px;
+    }
+    from {
+        background-color: lightblue;
+    }
+    to {
+        background-color: white;
+    }
+}
