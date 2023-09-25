@@ -71,8 +71,7 @@ input[type=text] {
     box-sizing: border-box;
   }
   label {
-    font-size: 300px;
-    color: red;
+    font-size: 40px;
   }
 }
 
