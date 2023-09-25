@@ -24,10 +24,6 @@ html {
     background: lightblue;
 }
 
-.form1 {
-  display: flex;
-}
-
 input[type=text] {
   display: flex;
 }
@@ -40,9 +36,6 @@ input[type=text] {
       background-position-y:3%;
       min-height: 150px;
       
-  }
-  .form1 {
-      flex-direction: column;
   }
 
   input[type=text] {
