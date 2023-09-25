@@ -59,8 +59,7 @@ input[type=text] {
     box-sizing: border-box;
   }
   label {
-    font-size: 26px;
-    color: red;
+    font-size: 50px;
   }
 }
 
