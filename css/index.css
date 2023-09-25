@@ -6,6 +6,8 @@ html {
     border-top-color: black;
     border-bottom-color: black;
     background-color:rgb(225, 237, 240);
+    overflow-x: auto;
+    overflow-y: auto;
     
 }
 
@@ -71,4 +73,20 @@ a:link {
     to {
         background-color: white;
     }
+}
+
+.hoverbox {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    margin: auto;
+    transition: background-color 3s, border-radius 3s;
+    transform: translate(0px, -125px);
+    z-index: 2;
+}
+.hoverbox:hover {
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(199, 227, 236);
+    z-index: 2;
 }

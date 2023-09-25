@@ -29,8 +29,23 @@ input[type=text] {
   display: flex;
 }
 
-
-
+@media screen and (min-width: 250px) and (max-width: 520px) {
+  .parallax {
+    background-size: 55%;
+    background-position-y:5%;
+    min-height: 150px;
+    
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 12px 0;
+    box-sizing: border-box;
+  }
+  label {
+    font-size: 24px;
+  }
+}
 @media screen and (min-width: 521px) and (max-width: 620px) {
   .parallax {
       background-size: 65%;
@@ -51,19 +66,13 @@ input[type=text] {
   }
 }
 
-@media screen and (min-width: 350px) and (max-width: 520px) {
-  input[type=text] {
-    width: 100%;
-    padding: 10px 15px;
-    margin: 12px 0;
-    box-sizing: border-box;
-  }
-  label {
-    font-size: 24px;
-  }
-}
-
 @media screen and (min-width: 621px) and (max-width: 1000px) {
+  .parallax {
+    background-size: 55%;
+    background-position-y:10%;
+    min-height: 400px;
+    
+  }
   input[type=text] {
     width: 100%;
     padding: 10px 15px;
