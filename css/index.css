@@ -8,7 +8,6 @@ html {
     background-color:rgb(225, 237, 240);
     overflow-x: auto;
     overflow-y: auto;
-    
 }
 
 
@@ -16,18 +15,30 @@ header {
     text-align: center;
     color: rgb(1, 16, 47);
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }    
 
 article {
     text-align: center;
     color: rgb(3, 70, 12);
     text-decoration-line: underline;
-    text-decoration-color: (3, 70, 12);
+    text-decoration-color: rgb(3, 70, 12);
     text-decoration-style: dotted;
     padding-top: 2%;
     padding-bottom: 5%;
 }
+
+table {
+    width: 20%;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-style:ridge;
+    border-color: black;
+    border-collapse: collapse;
+    text-align: center;
+  }
 
 a {
     color: rgb(88, 88, 238);
