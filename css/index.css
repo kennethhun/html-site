@@ -33,7 +33,6 @@ table {
 }
 
 table, th, td {
-    display:flexbox;
     border: 1px solid;
     border-style:ridge;
     border-color: black;
